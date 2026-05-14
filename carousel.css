@@ -6,6 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
+  background-color: rgb(228, 198, 215);
 }
 
 
@@ -20,6 +21,7 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  
 }
 
 /* Declare heights because of positioning of img element */
@@ -80,3 +82,6 @@ body {
     margin-top: 7rem;
   }
 }
+  .navbar-toggler-icon{
+    background-color: rgb(97, 17, 57);
+  }
